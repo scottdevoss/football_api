@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   get "/", to: "root#index"
+
+  get "/users/new", to: "users#new"
 end
