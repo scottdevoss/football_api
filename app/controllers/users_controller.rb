@@ -7,8 +7,8 @@ class UsersController < ApplicationController
     user = user_params
     user[:email] = user[:email].downcase
     new_user = User.create(user)
-    flash[:success] = "Welcome, #{new_user.name}!"
     redirect_to("/users/#{new_user.id}")
+    flash[:success] = "Welcome, #{new_user.name}!"
   end
 
   def show
@@ -21,6 +21,8 @@ class UsersController < ApplicationController
 
   def login
     user = User.find_by(email: params[:email])
+    redirect_to("/users/#{user.id}")
+    flash[:success] = "Welcome, #{user.name}!"
   end
 
   private

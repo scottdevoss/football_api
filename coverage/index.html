@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2024-04-30T08:54:36-06:00">2024-04-30T08:54:36-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2024-04-30T08:57:44-06:00">2024-04-30T08:57:44-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  98.47%
+  100.0%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
-       <span class="red">
-         0.98
+       <span class="green">
+         1.05
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>131</b> relevant lines,
-    <span class="green"><b>129</b> lines covered</span> and
-    <span class="red"><b>2</b> lines missed. </span>
+    <b>132</b> relevant lines,
+    <span class="green"><b>132</b> lines covered</span> and
+    <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
-  98.47%
+  100.0%
 </span>
 )
   </div>
@@ -95,11 +95,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#842b9f432b53afe3138e1261e72d4ed5f528733e" class="src_link" title="app/controllers/users_controller.rb">app/controllers/users_controller.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">32</td>
-            <td class="cell--number">18</td>
-            <td class="cell--number">18</td>
+            <td class="cell--number">33</td>
+            <td class="cell--number">19</td>
+            <td class="cell--number">19</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.00</td>
+            <td class="cell--number">1.05</td>
             
           </tr>
         
@@ -259,12 +259,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#621b2036603ad3ad8bc62d3cbf6b24b151f3e634" class="src_link" title="spec/features/users/login_user_spec.rb">spec/features/users/login_user_spec.rb</a></td>
-            <td class="yellow strong cell--number t-file__coverage">85.71 %</td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">24</td>
             <td class="cell--number">14</td>
-            <td class="cell--number">12</td>
-            <td class="cell--number">2</td>
-            <td class="cell--number">0.86</td>
+            <td class="cell--number">14</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
             
           </tr>
         
@@ -275,7 +275,7 @@
             <td class="cell--number">8</td>
             <td class="cell--number">8</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.00</td>
+            <td class="cell--number">1.63</td>
             
           </tr>
         
@@ -460,8 +460,8 @@
     
 
     <div class="t-line-summary">
-      <b>18</b> relevant lines.
-      <span class="green"><b>18</b> lines covered</span> and
+      <b>19</b> relevant lines.
+      <span class="green"><b>19</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -578,7 +578,7 @@
 
             
 
-            <code class="ruby">    flash[:success] = &quot;Welcome, #{new_user.name}!&quot;</code>
+            <code class="ruby">    redirect_to(&quot;/users/#{new_user.id}&quot;)</code>
           </li>
         </div>
       
@@ -589,7 +589,7 @@
 
             
 
-            <code class="ruby">    redirect_to(&quot;/users/#{new_user.id}&quot;)</code>
+            <code class="ruby">    flash[:success] = &quot;Welcome, #{new_user.name}!&quot;</code>
           </li>
         </div>
       
@@ -627,8 +627,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="15">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="15">
+            <span class="hits">2</span>
             
 
             
@@ -732,18 +732,18 @@
 
             
 
-            <code class="ruby">    require &#39;pry&#39;; binding.pry</code>
+            <code class="ruby">    redirect_to(&quot;/users/#{user.id}&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="25">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="25">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  end</code>
+            
+
+            <code class="ruby">    flash[:success] = &quot;Welcome, #{user.name}!&quot;</code>
           </li>
         </div>
       
@@ -754,12 +754,23 @@
 
             
 
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="27">
+            
+            
+
+            
+
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="27">
+          <li class="covered" data-hits="1" data-linenumber="28">
             <span class="hits">1</span>
             
 
@@ -770,7 +781,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="28">
+          <li class="never" data-hits="" data-linenumber="29">
             
             
 
@@ -781,7 +792,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="29">
+          <li class="covered" data-hits="1" data-linenumber="30">
             <span class="hits">1</span>
             
 
@@ -792,7 +803,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="30">
+          <li class="covered" data-hits="1" data-linenumber="31">
             <span class="hits">1</span>
             
 
@@ -803,7 +814,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="31">
+          <li class="never" data-hits="" data-linenumber="32">
             
             
 
@@ -814,7 +825,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="32">
+          <li class="never" data-hits="" data-linenumber="33">
             
             
 
@@ -3918,8 +3929,8 @@
   <div class="header">
     <h3>spec/features/users/login_user_spec.rb</h3>
     <h4>
-      <span class="yellow">
-  85.71%
+      <span class="green">
+  100.0%
 </span>
 
       lines covered
@@ -3929,8 +3940,8 @@
 
     <div class="t-line-summary">
       <b>14</b> relevant lines.
-      <span class="green"><b>12</b> lines covered</span> and
-      <span class="red"><b>2</b> lines missed.</span>
+      <span class="green"><b>14</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
 
     
@@ -4161,19 +4172,19 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="21">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="21">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    expect(current_path).to eq(&quot;/user/#{user.id}&quot;)</code>
+            
+
+            <code class="ruby">    expect(current_path).to eq(&quot;/users/#{user.id}&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="22">
-            
+          <li class="covered" data-hits="1" data-linenumber="22">
+            <span class="hits">1</span>
             
 
             
@@ -4280,8 +4291,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="5">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="5">
+            <span class="hits">2</span>
             
 
             
@@ -4291,8 +4302,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="6">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="6">
+            <span class="hits">2</span>
             
 
             
@@ -4302,8 +4313,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="7">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="7">
+            <span class="hits">2</span>
             
 
             
@@ -4313,8 +4324,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="8">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="8">
+            <span class="hits">2</span>
             
 
             
@@ -4324,8 +4335,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="9">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="9">
+            <span class="hits">2</span>
             
 
             
