@@ -21,4 +21,20 @@ RSpec.describe "Logging In" do
     expect(current_path).to eq("/users/#{user.id}")
     expect(page).to have_content("Welcome, #{user.name}!")
   end
+
+  it "cannot log in with bad credentials" do
+    user = User.create(name: "Abraham Lincoln", email: "honestabe@gmail.com", password: "honest", password_confirmation: "honest")
+
+    visit "/login"
+
+    fill_in :email, with: user.email
+    fill_in :password, with: user.password
+    fill_in :password_confirmation, with: "wrongpassword"
+
+    click_on "Log In"
+
+    expect(current_path).to eq("/login")
+
+    expect(page).to have_content("Sorry, your credentials are bad")
+  end
 end
