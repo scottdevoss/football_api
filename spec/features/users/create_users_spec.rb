@@ -33,4 +33,23 @@ RSpec.describe "User registration form" do
 
     expect(page).to have_content("Please fill in all fields")
   end
+
+  it "gives an error if passwords to not match" do
+    visit "/"
+
+    click_on "Register as a New User"
+
+    expect(current_path).to eq("/users/new")
+
+    fill_in :name, with: "Happy Gilmore"
+    fill_in :email, with: "hockeyislife@gmail.com"
+    fill_in :password, with: "hockey123"
+    fill_in :password_confirmation, with: "wrongpassword"
+
+    click_on "Create User"
+
+    expect(current_path).to eq("/users/new")
+
+    expect(page).to have_content("Passwords do not match")
+  end
 end

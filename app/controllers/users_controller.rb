@@ -5,15 +5,16 @@ class UsersController < ApplicationController
 
   def create
     user = user_params
-    if user[:name].present? && user[:email].present? && user[:password].present? && user[:password_confirmation].present?
+    if user[:password] != user[:password_confirmation]
+      redirect_to("/users/new")
+      flash[:error] = "Passwords do not match"
+    elsif
+      user[:name].present? && user[:email].present? && user[:password].present? && user[:password_confirmation].present?
       user[:email] = user[:email].downcase
       new_user = User.create(user)
       session[:user_id] = new_user.id
       redirect_to("/users/#{new_user.id}")
       flash[:success] = "Welcome, #{new_user.name}!"
-    elsif user[:password] != user[:password_confirmation]
-      redirect_to("/users/new")
-      flash[:error] = "Passwords do not match"
     else
       redirect_to("/users/new")
       flash[:error] = "Please fill in all fields"

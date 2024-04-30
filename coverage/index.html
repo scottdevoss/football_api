@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2024-04-30T09:36:12-06:00">2024-04-30T09:36:12-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2024-04-30T09:39:29-06:00">2024-04-30T09:39:29-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  98.78%
+  100.0%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.08
+         1.13
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>164</b> relevant lines,
-    <span class="green"><b>162</b> lines covered</span> and
-    <span class="red"><b>2</b> lines missed. </span>
+    <b>175</b> relevant lines,
+    <span class="green"><b>175</b> lines covered</span> and
+    <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
-  98.78%
+  100.0%
 </span>
 )
   </div>
@@ -77,7 +77,7 @@
             <td class="cell--number">4</td>
             <td class="cell--number">4</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.50</td>
+            <td class="cell--number">1.75</td>
             
           </tr>
         
@@ -94,12 +94,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#842b9f432b53afe3138e1261e72d4ed5f528733e" class="src_link" title="app/controllers/users_controller.rb">app/controllers/users_controller.rb</a></td>
-            <td class="green strong cell--number t-file__coverage">93.33 %</td>
-            <td class="cell--number">48</td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">52</td>
             <td class="cell--number">30</td>
-            <td class="cell--number">28</td>
-            <td class="cell--number">2</td>
-            <td class="cell--number">1.20</td>
+            <td class="cell--number">30</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.47</td>
             
           </tr>
         
@@ -249,9 +249,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#d0ebe9fd9ed0813996cce599d12972982cfd31ee" class="src_link" title="spec/features/users/create_users_spec.rb">spec/features/users/create_users_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">36</td>
-            <td class="cell--number">20</td>
-            <td class="cell--number">20</td>
+            <td class="cell--number">55</td>
+            <td class="cell--number">31</td>
+            <td class="cell--number">31</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -378,8 +378,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="5">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="4" data-linenumber="5">
+            <span class="hits">4</span>
             
 
             
@@ -506,7 +506,7 @@
     <h3>app/controllers/users_controller.rb</h3>
     <h4>
       <span class="green">
-  93.33%
+  100.0%
 </span>
 
       lines covered
@@ -516,8 +516,8 @@
 
     <div class="t-line-summary">
       <b>30</b> relevant lines.
-      <span class="green"><b>28</b> lines covered</span> and
-      <span class="red"><b>2</b> lines missed.</span>
+      <span class="green"><b>30</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
 
     
@@ -550,8 +550,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="3">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="5" data-linenumber="3">
+            <span class="hits">5</span>
             
 
             
@@ -594,8 +594,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="7">
-            <span class="hits">2</span>
+          <li class="covered" data-hits="3" data-linenumber="7">
+            <span class="hits">3</span>
             
 
             
@@ -605,13 +605,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="8">
-            <span class="hits">2</span>
+          <li class="covered" data-hits="3" data-linenumber="8">
+            <span class="hits">3</span>
             
 
             
 
-            <code class="ruby">    if user[:name].present? &amp;&amp; user[:email].present? &amp;&amp; user[:password].present? &amp;&amp; user[:password_confirmation].present?</code>
+            <code class="ruby">    if user[:password] != user[:password_confirmation]</code>
           </li>
         </div>
       
@@ -622,7 +622,7 @@
 
             
 
-            <code class="ruby">      user[:email] = user[:email].downcase</code>
+            <code class="ruby">      redirect_to(&quot;/users/new&quot;)</code>
           </li>
         </div>
       
@@ -633,29 +633,29 @@
 
             
 
-            <code class="ruby">      new_user = User.create(user)</code>
+            <code class="ruby">      flash[:error] = &quot;Passwords do not match&quot;</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="11">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="11">
+            
             
 
             
 
-            <code class="ruby">      session[:user_id] = new_user.id</code>
+            <code class="ruby">    elsif</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="12">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="12">
+            <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">      redirect_to(&quot;/users/#{new_user.id}&quot;)</code>
+            <code class="ruby">      user[:name].present? &amp;&amp; user[:email].present? &amp;&amp; user[:password].present? &amp;&amp; user[:password_confirmation].present?</code>
           </li>
         </div>
       
@@ -666,7 +666,7 @@
 
             
 
-            <code class="ruby">      flash[:success] = &quot;Welcome, #{new_user.name}!&quot;</code>
+            <code class="ruby">      user[:email] = user[:email].downcase</code>
           </li>
         </div>
       
@@ -677,62 +677,62 @@
 
             
 
-            <code class="ruby">    elsif user[:password] != user[:password_confirmation]</code>
+            <code class="ruby">      new_user = User.create(user)</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="15">
-            
-            
-
-            
-
-            <code class="ruby">      redirect_to(&quot;/users/new&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="16">
-            
-            
-
-            
-
-            <code class="ruby">      flash[:error] = &quot;Passwords do not match&quot;</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="17">
-            
-            
-
-            
-
-            <code class="ruby">    else</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="18">
+          <li class="covered" data-hits="1" data-linenumber="15">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">      redirect_to(&quot;/users/new&quot;)</code>
+            <code class="ruby">      session[:user_id] = new_user.id</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="19">
+          <li class="covered" data-hits="1" data-linenumber="16">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">      flash[:error] = &quot;Please fill in all fields&quot;</code>
+            <code class="ruby">      redirect_to(&quot;/users/#{new_user.id}&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      flash[:success] = &quot;Welcome, #{new_user.name}!&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby">    # elsif user[:password] != user[:password_confirmation]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby">    #   redirect_to(&quot;/users/new&quot;)</code>
           </li>
         </div>
       
@@ -743,7 +743,7 @@
 
             
 
-            <code class="ruby">    end </code>
+            <code class="ruby">    #   flash[:error] = &quot;Passwords do not match&quot;</code>
           </li>
         </div>
       
@@ -754,18 +754,18 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby">    else</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="22">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="22">
+            <span class="hits">1</span>
             
 
-            <code class="ruby"></code>
+            
+
+            <code class="ruby">      redirect_to(&quot;/users/new&quot;)</code>
           </li>
         </div>
       
@@ -776,18 +776,18 @@
 
             
 
-            <code class="ruby">  def show</code>
+            <code class="ruby">      flash[:error] = &quot;Please fill in all fields&quot;</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="24">
-            <span class="hits">2</span>
+          <li class="never" data-hits="" data-linenumber="24">
+            
             
 
             
 
-            <code class="ruby">    @user = User.find(params[:id])</code>
+            <code class="ruby">    end </code>
           </li>
         </div>
       
@@ -820,18 +820,18 @@
 
             
 
-            <code class="ruby">  def login_form</code>
+            <code class="ruby">  def show</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="28">
-            
-            
-
+          <li class="covered" data-hits="2" data-linenumber="28">
+            <span class="hits">2</span>
             
 
-            <code class="ruby"></code>
+            
+
+            <code class="ruby">    @user = User.find(params[:id])</code>
           </li>
         </div>
       
@@ -864,40 +864,40 @@
 
             
 
-            <code class="ruby">  def login</code>
+            <code class="ruby">  def login_form</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="32">
-            <span class="hits">2</span>
+          <li class="never" data-hits="" data-linenumber="32">
+            
             
 
             
 
-            <code class="ruby">    user = User.find_by(email: params[:email])</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="33">
-            <span class="hits">2</span>
+          <li class="never" data-hits="" data-linenumber="33">
+            
             
 
             
 
-            <code class="ruby">    if user.authenticate(params[:password] &amp;&amp; params[:password_confirmation])</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="34">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="34">
+            
             
 
             
 
-            <code class="ruby">      session[:user_id] = user.id</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -908,29 +908,29 @@
 
             
 
-            <code class="ruby">      flash[:success] = &quot;Welcome, #{user.name}!&quot;</code>
+            <code class="ruby">  def login</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="36">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="36">
+            <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">      redirect_to(&quot;/users/#{user.id}&quot;)</code>
+            <code class="ruby">    user = User.find_by(email: params[:email])</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="37">
-            
-            
-
+          <li class="covered" data-hits="2" data-linenumber="37">
+            <span class="hits">2</span>
             
 
-            <code class="ruby">    else</code>
+            
+
+            <code class="ruby">    if user.authenticate(params[:password] &amp;&amp; params[:password_confirmation])</code>
           </li>
         </div>
       
@@ -941,7 +941,7 @@
 
             
 
-            <code class="ruby">      flash[:error] = &quot;Sorry, your credentials are bad.&quot;</code>
+            <code class="ruby">      session[:user_id] = user.id</code>
           </li>
         </div>
       
@@ -952,18 +952,18 @@
 
             
 
-            <code class="ruby">      render :login_form</code>
+            <code class="ruby">      flash[:success] = &quot;Welcome, #{user.name}!&quot;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="40">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="40">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    end </code>
+            
+
+            <code class="ruby">      redirect_to(&quot;/users/#{user.id}&quot;)</code>
           </li>
         </div>
       
@@ -974,18 +974,18 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby">    else</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="42">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="42">
+            <span class="hits">1</span>
             
 
-            <code class="ruby"></code>
+            
+
+            <code class="ruby">      flash[:error] = &quot;Sorry, your credentials are bad.&quot;</code>
           </li>
         </div>
       
@@ -996,7 +996,7 @@
 
             
 
-            <code class="ruby">  private</code>
+            <code class="ruby">      render :login_form</code>
           </li>
         </div>
       
@@ -1007,34 +1007,12 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    end </code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="45">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  def user_params</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="2" data-linenumber="46">
-            <span class="hits">2</span>
-            
-
-            
-
-            <code class="ruby">    params.permit(:name, :email, :password, :password_confirmation)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="47">
+          <li class="never" data-hits="" data-linenumber="45">
             
             
 
@@ -1045,7 +1023,73 @@
         </div>
       
         <div>
+          <li class="never" data-hits="" data-linenumber="46">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="47">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  private</code>
+          </li>
+        </div>
+      
+        <div>
           <li class="never" data-hits="" data-linenumber="48">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="49">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def user_params</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="3" data-linenumber="50">
+            <span class="hits">3</span>
+            
+
+            
+
+            <code class="ruby">    params.permit(:name, :email, :password, :password_confirmation)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="51">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="52">
             
             
 
@@ -3919,8 +3963,8 @@
     
 
     <div class="t-line-summary">
-      <b>20</b> relevant lines.
-      <span class="green"><b>20</b> lines covered</span> and
+      <b>31</b> relevant lines.
+      <span class="green"><b>31</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -4318,6 +4362,215 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="36">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="37">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &quot;gives an error if passwords to not match&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="38">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    visit &quot;/&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="39">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="40">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    click_on &quot;Register as a New User&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="41">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="42">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(current_path).to eq(&quot;/users/new&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="43">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="44">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    fill_in :name, with: &quot;Happy Gilmore&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="45">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    fill_in :email, with: &quot;hockeyislife@gmail.com&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="46">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    fill_in :password, with: &quot;hockey123&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="47">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    fill_in :password_confirmation, with: &quot;wrongpassword&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="48">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="49">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    click_on &quot;Create User&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="50">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="51">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(current_path).to eq(&quot;/users/new&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="52">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="53">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&quot;Passwords do not match&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="54">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="55">
             
             
 
