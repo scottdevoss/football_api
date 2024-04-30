@@ -17,4 +17,20 @@ RSpec.describe "User registration form" do
 
     expect(page).to have_content("Welcome, Happy Gilmore!")
   end
+
+  it "gives an error message if not all fields are filled" do
+    visit "/"
+
+    click_on "Register as a New User"
+
+    expect(current_path).to eq("/users/new")
+
+    fill_in :name, with: "Happy Gilmore"
+
+    click_on "Create User"
+
+    expect(current_path).to eq("/users/new")
+
+    expect(page).to have_content("Please fill in all fields")
+  end
 end
