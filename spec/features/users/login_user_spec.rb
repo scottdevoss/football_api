@@ -65,6 +65,7 @@ RSpec.describe "Logging In" do
     click_button "Log Out"
 
     expect(current_path).to eq("/")
+    expect(page).to have_content("Successfully Logged Out")
     expect(page).to have_button("Register as a New User")
     expect(page).to have_button("I already have an account")
     expect(page).to_not have_button("Log Out")
