@@ -17,4 +17,5 @@ Rails.application.routes.draw do
   post "/login", to: "users#login"
   get "/users", to: "users#create"
   delete "/logout", to: "users#logout"
+  get "/sports", to: "sports#index"
 end
