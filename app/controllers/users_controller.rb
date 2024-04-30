@@ -4,8 +4,9 @@ class UsersController < ApplicationController
   end
 
   def create
-    user = User.create(user_params)
-    redirect_to("/users/#{user.id}")
+    new_user = User.create(user_params)
+    flash[:success] = "Welcome, #{new_user.name}!"
+    redirect_to("/users/#{new_user.id}")
   end
 
   def show
