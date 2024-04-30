@@ -445,6 +445,11 @@
       "/Users/scottdevoss/job_search_2024/project_practice/football_api/app/controllers/application_controller.rb": {
         "lines": [
           1,
+          1,
+          null,
+          1,
+          2,
+          null,
           null
         ]
       },
@@ -461,6 +466,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           1,
@@ -474,6 +480,7 @@
           1,
           2,
           2,
+          1,
           1,
           1,
           null,
@@ -491,6 +498,6 @@
         ]
       }
     },
-    "timestamp": 1714489931
+    "timestamp": 1714490455
   }
 }
