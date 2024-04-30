@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2024-04-30T08:27:39-06:00">2024-04-30T08:27:39-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2024-04-30T08:31:14-06:00">2024-04-30T08:31:14-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>109</b> relevant lines,
-    <span class="green"><b>109</b> lines covered</span> and
+    <b>111</b> relevant lines,
+    <span class="green"><b>111</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -95,9 +95,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#842b9f432b53afe3138e1261e72d4ed5f528733e" class="src_link" title="app/controllers/users_controller.rb">app/controllers/users_controller.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">21</td>
-            <td class="cell--number">12</td>
-            <td class="cell--number">12</td>
+            <td class="cell--number">23</td>
+            <td class="cell--number">14</td>
+            <td class="cell--number">14</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -449,8 +449,8 @@
     
 
     <div class="t-line-summary">
-      <b>12</b> relevant lines.
-      <span class="green"><b>12</b> lines covered</span> and
+      <b>14</b> relevant lines.
+      <span class="green"><b>14</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -534,7 +534,7 @@
 
             
 
-            <code class="ruby">    new_user = User.create(user_params)</code>
+            <code class="ruby">    user = user_params</code>
           </li>
         </div>
       
@@ -545,7 +545,7 @@
 
             
 
-            <code class="ruby">    flash[:success] = &quot;Welcome, #{new_user.name}!&quot;</code>
+            <code class="ruby">    user[:email] = user[:email].downcase</code>
           </li>
         </div>
       
@@ -556,12 +556,34 @@
 
             
 
+            <code class="ruby">    new_user = User.create(user)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    flash[:success] = &quot;Welcome, #{new_user.name}!&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="11">
+            <span class="hits">1</span>
+            
+
+            
+
             <code class="ruby">    redirect_to(&quot;/users/#{new_user.id}&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="10">
+          <li class="never" data-hits="" data-linenumber="12">
             
             
 
@@ -572,7 +594,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="11">
+          <li class="never" data-hits="" data-linenumber="13">
             
             
 
@@ -583,7 +605,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="12">
+          <li class="covered" data-hits="1" data-linenumber="14">
             <span class="hits">1</span>
             
 
@@ -594,7 +616,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="13">
+          <li class="covered" data-hits="1" data-linenumber="15">
             <span class="hits">1</span>
             
 
@@ -605,35 +627,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="14">
+          <li class="never" data-hits="" data-linenumber="16">
             
             
 
             
 
             <code class="ruby">  end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="15">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="16">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  private</code>
           </li>
         </div>
       
@@ -655,12 +655,34 @@
 
             
 
+            <code class="ruby">  private</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="20">
+            <span class="hits">1</span>
+            
+
+            
+
             <code class="ruby">  def user_params</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="19">
+          <li class="covered" data-hits="1" data-linenumber="21">
             <span class="hits">1</span>
             
 
@@ -671,7 +693,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="20">
+          <li class="never" data-hits="" data-linenumber="22">
             
             
 
@@ -682,7 +704,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="21">
+          <li class="never" data-hits="" data-linenumber="23">
             
             
 
