@@ -352,6 +352,34 @@
           null
         ]
       },
+      "/Users/scottdevoss/job_search_2024/project_practice/football_api/spec/features/users/login_user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
       "/Users/scottdevoss/job_search_2024/project_practice/football_api/spec/models/user_spec.rb": {
         "lines": [
           1,
@@ -430,6 +458,6 @@
         ]
       }
     },
-    "timestamp": 1714487474
+    "timestamp": 1714488360
   }
 }
