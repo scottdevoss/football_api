@@ -35,6 +35,6 @@ RSpec.describe "Logging In" do
 
     expect(current_path).to eq("/login")
 
-    expect(page).to have_content("Sorry, your credentials are bad")
+    expect(page).to have_content("Sorry, your credentials are bad.")
   end
 end

@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2024-04-30T09:04:44-06:00">2024-04-30T09:04:44-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2024-04-30T09:12:11-06:00">2024-04-30T09:12:11-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,7 +23,7 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  99.29%
+  100.0%
 </span>
 
      </span>
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>141</b> relevant lines,
-    <span class="green"><b>140</b> lines covered</span> and
-    <span class="red"><b>1</b> lines missed. </span>
+    <b>144</b> relevant lines,
+    <span class="green"><b>144</b> lines covered</span> and
+    <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
-  99.29%
+  100.0%
 </span>
 )
   </div>
@@ -95,11 +95,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#842b9f432b53afe3138e1261e72d4ed5f528733e" class="src_link" title="app/controllers/users_controller.rb">app/controllers/users_controller.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">33</td>
-            <td class="cell--number">19</td>
-            <td class="cell--number">19</td>
+            <td class="cell--number">38</td>
+            <td class="cell--number">22</td>
+            <td class="cell--number">22</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.26</td>
+            <td class="cell--number">1.14</td>
             
           </tr>
         
@@ -259,12 +259,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#621b2036603ad3ad8bc62d3cbf6b24b151f3e634" class="src_link" title="spec/features/users/login_user_spec.rb">spec/features/users/login_user_spec.rb</a></td>
-            <td class="green strong cell--number t-file__coverage">95.65 %</td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">40</td>
             <td class="cell--number">23</td>
-            <td class="cell--number">22</td>
-            <td class="cell--number">1</td>
-            <td class="cell--number">0.96</td>
+            <td class="cell--number">23</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
             
           </tr>
         
@@ -460,8 +460,8 @@
     
 
     <div class="t-line-summary">
-      <b>19</b> relevant lines.
-      <span class="green"><b>19</b> lines covered</span> and
+      <b>22</b> relevant lines.
+      <span class="green"><b>22</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -627,8 +627,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="15">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="2" data-linenumber="15">
+            <span class="hits">2</span>
             
 
             
@@ -732,29 +732,29 @@
 
             
 
-            <code class="ruby">    redirect_to(&quot;/users/#{user.id}&quot;)</code>
+            <code class="ruby">    if user.authenticate(params[:password] &amp;&amp; params[:password_confirmation])</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="25">
-            <span class="hits">2</span>
+          <li class="covered" data-hits="1" data-linenumber="25">
+            <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    flash[:success] = &quot;Welcome, #{user.name}!&quot;</code>
+            <code class="ruby">      flash[:success] = &quot;Welcome, #{user.name}!&quot;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="26">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="26">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  end</code>
+            
+
+            <code class="ruby">      redirect_to(&quot;/users/#{user.id}&quot;)</code>
           </li>
         </div>
       
@@ -765,7 +765,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    else</code>
           </li>
         </div>
       
@@ -776,45 +776,34 @@
 
             
 
-            <code class="ruby">  private</code>
+            <code class="ruby">      flash[:error] = &quot;Sorry, your credentials are bad.&quot;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="29">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="30">
+          <li class="covered" data-hits="1" data-linenumber="29">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">  def user_params</code>
+            <code class="ruby">      render :login_form</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="31">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="30">
+            
             
 
             
 
-            <code class="ruby">    params.permit(:name, :email, :password, :password_confirmation)</code>
+            <code class="ruby">    end </code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="32">
+          <li class="never" data-hits="" data-linenumber="31">
             
             
 
@@ -825,7 +814,73 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="33">
+          <li class="never" data-hits="" data-linenumber="32">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="33">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  private</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="34">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="35">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def user_params</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="36">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    params.permit(:name, :email, :password, :password_confirmation)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="37">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="38">
             
             
 
@@ -3930,7 +3985,7 @@
     <h3>spec/features/users/login_user_spec.rb</h3>
     <h4>
       <span class="green">
-  95.65%
+  100.0%
 </span>
 
       lines covered
@@ -3940,8 +3995,8 @@
 
     <div class="t-line-summary">
       <b>23</b> relevant lines.
-      <span class="green"><b>22</b> lines covered</span> and
-      <span class="red"><b>1</b> lines missed.</span>
+      <span class="green"><b>23</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
 
     
@@ -4359,13 +4414,13 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="38">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="38">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    expect(page).to have_content(&quot;Sorry, your credentials are bad&quot;)</code>
+            
+
+            <code class="ruby">    expect(page).to have_content(&quot;Sorry, your credentials are bad.&quot;)</code>
           </li>
         </div>
       
