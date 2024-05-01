@@ -21,90 +21,6 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 May 2024 14:34:52 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      X-Request-Id:
-      - f2f7d1af-459c-4fbd-9c8b-37f799028025
-      - f2f7d1af-459c-4fbd-9c8b-37f799028025
-      Strict-Transport-Security:
-      - max-age=31536000
-      Vary:
-      - Accept-Encoding
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Credentials:
-      - 'True'
-      Access-Control-Allow-Methods:
-      - GET, OPTIONS
-      Access-Control-Allow-Headers:
-      - x-rapidapi-key, x-apisports-key, x-rapidapi-host
-      X-Ratelimit-Limit:
-      - '10'
-      X-Ratelimit-Remaining:
-      - '8'
-      X-Ratelimit-Requests-Limit:
-      - '100'
-      X-Ratelimit-Requests-Remaining:
-      - '57'
-    body:
-      encoding: ASCII-8BIT
-      string: '{"get":"teams","parameters":{"league":"39","season":"2023"},"errors":[],"results":20,"paging":{"current":1,"total":1},"response":[{"team":{"id":33,"name":"Manchester
-        United","code":"MUN","country":"England","founded":1878,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"venue":{"id":556,"name":"Old
-        Trafford","address":"Sir Matt Busby Way","city":"Manchester","capacity":76212,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/556.png"}},{"team":{"id":34,"name":"Newcastle","code":"NEW","country":"England","founded":1892,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/34.png"},"venue":{"id":562,"name":"St.
-        James'' Park","address":"St. James&apos; Street","city":"Newcastle upon Tyne","capacity":52758,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/562.png"}},{"team":{"id":35,"name":"Bournemouth","code":"BOU","country":"England","founded":1899,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/35.png"},"venue":{"id":504,"name":"Vitality
-        Stadium","address":"Dean Court, Kings Park","city":"Bournemouth, Dorset","capacity":12000,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/504.png"}},{"team":{"id":36,"name":"Fulham","code":"FUL","country":"England","founded":1879,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/36.png"},"venue":{"id":535,"name":"Craven
-        Cottage","address":"Stevenage Road","city":"London","capacity":25700,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/535.png"}},{"team":{"id":39,"name":"Wolves","code":"WOL","country":"England","founded":1877,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/39.png"},"venue":{"id":600,"name":"Molineux
-        Stadium","address":"Waterloo Road","city":"Wolverhampton, West Midlands","capacity":34624,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/600.png"}},{"team":{"id":40,"name":"Liverpool","code":"LIV","country":"England","founded":1892,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/40.png"},"venue":{"id":550,"name":"Anfield","address":"Anfield
-        Road","city":"Liverpool","capacity":55212,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/550.png"}},{"team":{"id":42,"name":"Arsenal","code":"ARS","country":"England","founded":1886,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/42.png"},"venue":{"id":494,"name":"Emirates
-        Stadium","address":"Queensland Road","city":"London","capacity":60383,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/494.png"}},{"team":{"id":44,"name":"Burnley","code":"BUR","country":"England","founded":1882,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/44.png"},"venue":{"id":512,"name":"Turf
-        Moor","address":"Harry Potts Way","city":"Burnley","capacity":22546,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/512.png"}},{"team":{"id":45,"name":"Everton","code":"EVE","country":"England","founded":1878,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/45.png"},"venue":{"id":8560,"name":"Goodison
-        Park","address":"Goodison Road","city":"Liverpool","capacity":40569,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/8560.png"}},{"team":{"id":47,"name":"Tottenham","code":"TOT","country":"England","founded":1882,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/47.png"},"venue":{"id":593,"name":"Tottenham
-        Hotspur Stadium","address":"Bill Nicholson Way, 748 High Road","city":"London","capacity":62850,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/593.png"}},{"team":{"id":48,"name":"West
-        Ham","code":"WES","country":"England","founded":1895,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/48.png"},"venue":{"id":598,"name":"London
-        Stadium","address":"Marshgate Lane, Stratford","city":"London","capacity":62500,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/598.png"}},{"team":{"id":49,"name":"Chelsea","code":"CHE","country":"England","founded":1905,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/49.png"},"venue":{"id":519,"name":"Stamford
-        Bridge","address":"Fulham Road","city":"London","capacity":41841,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/519.png"}},{"team":{"id":50,"name":"Manchester
-        City","code":"MAC","country":"England","founded":1880,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/50.png"},"venue":{"id":555,"name":"Etihad
-        Stadium","address":"Rowsley Street","city":"Manchester","capacity":55097,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/555.png"}},{"team":{"id":51,"name":"Brighton","code":"BRI","country":"England","founded":1901,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/51.png"},"venue":{"id":508,"name":"The
-        American Express Community Stadium","address":"Village Way","city":"Falmer,
-        East Sussex","capacity":31872,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/508.png"}},{"team":{"id":52,"name":"Crystal
-        Palace","code":"CRY","country":"England","founded":1905,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/52.png"},"venue":{"id":525,"name":"Selhurst
-        Park","address":"Holmesdale Road","city":"London","capacity":26309,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/525.png"}},{"team":{"id":55,"name":"Brentford","code":"BRE","country":"England","founded":1889,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/55.png"},"venue":{"id":10503,"name":"Gtech
-        Community Stadium","address":"166 Lionel Rd N, Brentford","city":"Brentford,
-        Middlesex","capacity":17250,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/10503.png"}},{"team":{"id":62,"name":"Sheffield
-        Utd","code":"SHE","country":"England","founded":1889,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/62.png"},"venue":{"id":581,"name":"Bramall
-        Lane","address":"Bramall Lane","city":"Sheffield","capacity":32702,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/581.png"}},{"team":{"id":65,"name":"Nottingham
-        Forest","code":"NOT","country":"England","founded":1865,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/65.png"},"venue":{"id":566,"name":"The
-        City Ground","address":"Pavilion Road","city":"Nottingham, Nottinghamshire","capacity":30576,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/566.png"}},{"team":{"id":66,"name":"Aston
-        Villa","code":"AST","country":"England","founded":1874,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/66.png"},"venue":{"id":495,"name":"Villa
-        Park","address":"Trinity Road","city":"Birmingham","capacity":42788,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/495.png"}},{"team":{"id":1359,"name":"Luton","code":"LUT","country":"England","founded":1885,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/1359.png"},"venue":{"id":551,"name":"Kenilworth
-        Road","address":"1 Maple Road","city":"Luton, Bedfordshire","capacity":11500,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/551.png"}}]}'
-  recorded_at: Wed, 01 May 2024 14:34:52 GMT
-- request:
-    method: get
-    uri: https://v3.football.api-sports.io/teams?league=39&season=2023
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      X-Rapidapi-Key:
-      - "<soccer_api_key>"
-      User-Agent:
-      - Faraday v2.9.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
       - Wed, 01 May 2024 14:48:22 GMT
       Content-Type:
       - application/json
@@ -170,6 +86,90 @@ http_interactions:
   recorded_at: Wed, 01 May 2024 14:48:22 GMT
 - request:
     method: get
+    uri: https://v3.football.api-sports.io/teams?league=39&season=2023
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Rapidapi-Key:
+      - "<soccer_api_key>"
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 01 May 2024 15:16:10 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Request-Id:
+      - b01848f0-01bf-40a4-a5d8-2332329539a7
+      - b01848f0-01bf-40a4-a5d8-2332329539a7
+      Strict-Transport-Security:
+      - max-age=31536000
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'True'
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS
+      Access-Control-Allow-Headers:
+      - x-rapidapi-key, x-apisports-key, x-rapidapi-host
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Remaining:
+      - '9'
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '43'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"get":"teams","parameters":{"league":"39","season":"2023"},"errors":[],"results":20,"paging":{"current":1,"total":1},"response":[{"team":{"id":33,"name":"Manchester
+        United","code":"MUN","country":"England","founded":1878,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"venue":{"id":556,"name":"Old
+        Trafford","address":"Sir Matt Busby Way","city":"Manchester","capacity":76212,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/556.png"}},{"team":{"id":34,"name":"Newcastle","code":"NEW","country":"England","founded":1892,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/34.png"},"venue":{"id":562,"name":"St.
+        James'' Park","address":"St. James&apos; Street","city":"Newcastle upon Tyne","capacity":52758,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/562.png"}},{"team":{"id":35,"name":"Bournemouth","code":"BOU","country":"England","founded":1899,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/35.png"},"venue":{"id":504,"name":"Vitality
+        Stadium","address":"Dean Court, Kings Park","city":"Bournemouth, Dorset","capacity":12000,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/504.png"}},{"team":{"id":36,"name":"Fulham","code":"FUL","country":"England","founded":1879,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/36.png"},"venue":{"id":535,"name":"Craven
+        Cottage","address":"Stevenage Road","city":"London","capacity":25700,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/535.png"}},{"team":{"id":39,"name":"Wolves","code":"WOL","country":"England","founded":1877,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/39.png"},"venue":{"id":600,"name":"Molineux
+        Stadium","address":"Waterloo Road","city":"Wolverhampton, West Midlands","capacity":34624,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/600.png"}},{"team":{"id":40,"name":"Liverpool","code":"LIV","country":"England","founded":1892,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/40.png"},"venue":{"id":550,"name":"Anfield","address":"Anfield
+        Road","city":"Liverpool","capacity":55212,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/550.png"}},{"team":{"id":42,"name":"Arsenal","code":"ARS","country":"England","founded":1886,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/42.png"},"venue":{"id":494,"name":"Emirates
+        Stadium","address":"Queensland Road","city":"London","capacity":60383,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/494.png"}},{"team":{"id":44,"name":"Burnley","code":"BUR","country":"England","founded":1882,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/44.png"},"venue":{"id":512,"name":"Turf
+        Moor","address":"Harry Potts Way","city":"Burnley","capacity":22546,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/512.png"}},{"team":{"id":45,"name":"Everton","code":"EVE","country":"England","founded":1878,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/45.png"},"venue":{"id":8560,"name":"Goodison
+        Park","address":"Goodison Road","city":"Liverpool","capacity":40569,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/8560.png"}},{"team":{"id":47,"name":"Tottenham","code":"TOT","country":"England","founded":1882,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/47.png"},"venue":{"id":593,"name":"Tottenham
+        Hotspur Stadium","address":"Bill Nicholson Way, 748 High Road","city":"London","capacity":62850,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/593.png"}},{"team":{"id":48,"name":"West
+        Ham","code":"WES","country":"England","founded":1895,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/48.png"},"venue":{"id":598,"name":"London
+        Stadium","address":"Marshgate Lane, Stratford","city":"London","capacity":62500,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/598.png"}},{"team":{"id":49,"name":"Chelsea","code":"CHE","country":"England","founded":1905,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/49.png"},"venue":{"id":519,"name":"Stamford
+        Bridge","address":"Fulham Road","city":"London","capacity":41841,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/519.png"}},{"team":{"id":50,"name":"Manchester
+        City","code":"MAC","country":"England","founded":1880,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/50.png"},"venue":{"id":555,"name":"Etihad
+        Stadium","address":"Rowsley Street","city":"Manchester","capacity":55097,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/555.png"}},{"team":{"id":51,"name":"Brighton","code":"BRI","country":"England","founded":1901,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/51.png"},"venue":{"id":508,"name":"The
+        American Express Community Stadium","address":"Village Way","city":"Falmer,
+        East Sussex","capacity":31872,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/508.png"}},{"team":{"id":52,"name":"Crystal
+        Palace","code":"CRY","country":"England","founded":1905,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/52.png"},"venue":{"id":525,"name":"Selhurst
+        Park","address":"Holmesdale Road","city":"London","capacity":26309,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/525.png"}},{"team":{"id":55,"name":"Brentford","code":"BRE","country":"England","founded":1889,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/55.png"},"venue":{"id":10503,"name":"Gtech
+        Community Stadium","address":"166 Lionel Rd N, Brentford","city":"Brentford,
+        Middlesex","capacity":17250,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/10503.png"}},{"team":{"id":62,"name":"Sheffield
+        Utd","code":"SHE","country":"England","founded":1889,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/62.png"},"venue":{"id":581,"name":"Bramall
+        Lane","address":"Bramall Lane","city":"Sheffield","capacity":32702,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/581.png"}},{"team":{"id":65,"name":"Nottingham
+        Forest","code":"NOT","country":"England","founded":1865,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/65.png"},"venue":{"id":566,"name":"The
+        City Ground","address":"Pavilion Road","city":"Nottingham, Nottinghamshire","capacity":30576,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/566.png"}},{"team":{"id":66,"name":"Aston
+        Villa","code":"AST","country":"England","founded":1874,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/66.png"},"venue":{"id":495,"name":"Villa
+        Park","address":"Trinity Road","city":"Birmingham","capacity":42788,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/495.png"}},{"team":{"id":1359,"name":"Luton","code":"LUT","country":"England","founded":1885,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/1359.png"},"venue":{"id":551,"name":"Kenilworth
+        Road","address":"1 Maple Road","city":"Luton, Bedfordshire","capacity":11500,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/551.png"}}]}'
+  recorded_at: Wed, 01 May 2024 15:16:10 GMT
+- request:
+    method: get
     uri: https://v3.football.api-sports.io/teams?id=33
     body:
       encoding: US-ASCII
@@ -189,7 +189,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 May 2024 14:48:23 GMT
+      - Wed, 01 May 2024 15:16:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -197,8 +197,8 @@ http_interactions:
       Connection:
       - keep-alive
       X-Request-Id:
-      - 0c26d592-29ba-49a8-a09a-3efd8951a31d
-      - 0c26d592-29ba-49a8-a09a-3efd8951a31d
+      - bc4e6b15-8265-4ec2-a0f6-3cd6d2a1b47d
+      - bc4e6b15-8265-4ec2-a0f6-3cd6d2a1b47d
       Strict-Transport-Security:
       - max-age=31536000
       Vary:
@@ -218,11 +218,140 @@ http_interactions:
       X-Ratelimit-Requests-Limit:
       - '100'
       X-Ratelimit-Requests-Remaining:
-      - '54'
+      - '42'
     body:
       encoding: ASCII-8BIT
       string: '{"get":"teams","parameters":{"id":"33"},"errors":[],"results":1,"paging":{"current":1,"total":1},"response":[{"team":{"id":33,"name":"Manchester
         United","code":"MUN","country":"England","founded":1878,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"venue":{"id":556,"name":"Old
         Trafford","address":"Sir Matt Busby Way","city":"Manchester","capacity":76212,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/556.png"}}]}'
-  recorded_at: Wed, 01 May 2024 14:48:23 GMT
+  recorded_at: Wed, 01 May 2024 15:16:10 GMT
+- request:
+    method: get
+    uri: https://v3.football.api-sports.io/players?league=39&season=2023&team=33
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Rapidapi-Key:
+      - "<soccer_api_key>"
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 01 May 2024 15:16:11 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Request-Id:
+      - 9260aa23-d9cc-4aec-b48a-8b6e843bb4a3
+      - 9260aa23-d9cc-4aec-b48a-8b6e843bb4a3
+      Strict-Transport-Security:
+      - max-age=31536000
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'True'
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS
+      Access-Control-Allow-Headers:
+      - x-rapidapi-key, x-apisports-key, x-rapidapi-host
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Remaining:
+      - '7'
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '41'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"get":"players","parameters":{"league":"39","season":"2023","team":"33"},"errors":[],"results":20,"paging":{"current":1,"total":4},"response":[{"player":{"id":888,"name":"P.
+        Jones","firstname":"Phil Anthony","lastname":"Jones","age":31,"birth":{"date":"1992-02-21","place":"Preston","country":"England"},"nationality":"England","height":"180
+        cm","weight":"71 kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/888.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Defender","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":882,"name":"David
+        de Gea","firstname":"David","lastname":"de Gea Quintana","age":33,"birth":{"date":"1990-11-07","place":"Madrid","country":"Spain"},"nationality":"Spain","height":"192
+        cm","weight":"76 kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/882.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Goalkeeper","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":378,"name":"Alex
+        Telles","firstname":"Alex","lastname":"Nicolao Telles","age":31,"birth":{"date":"1992-12-15","place":"Caxias
+        do Sul","country":"Brazil"},"nationality":"Brazil","height":"181 cm","weight":"71
+        kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/378.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Defender","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":153434,"name":"W.
+        Fish","firstname":"William Thomas","lastname":"Fish","age":20,"birth":{"date":"2003-02-17","place":null,"country":"England"},"nationality":"England","height":null,"weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/153434.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Defender","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":378981,"name":"Elyh
+        Harrison","firstname":"Elyh Samuel","lastname":"Harrison","age":17,"birth":{"date":"2006-02-19","place":null,"country":"England"},"nationality":"England","height":null,"weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/378981.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Goalkeeper","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":330636,"name":"S.
+        Aljofree","firstname":"Sonny","lastname":"Aljofree","age":19,"birth":{"date":"2004-12-19","place":null,"country":"England"},"nationality":"England","height":null,"weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/330636.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Defender","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":282130,"name":"L.
+        Pye","firstname":"Logan","lastname":"Pye","age":20,"birth":{"date":"2003-10-26","place":null,"country":"England"},"nationality":"England","height":null,"weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/282130.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Defender","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":303016,"name":"M.
+        Oyedele","firstname":"Maximillian","lastname":"Oyedele","age":19,"birth":{"date":"2004-11-07","place":"Manchester","country":"England"},"nationality":"Poland","height":null,"weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/303016.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Midfielder","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":282136,"name":"N.
+        Emeran","firstname":"Noam","lastname":"Fritz Emeran","age":21,"birth":{"date":"2002-09-24","place":"Paray-le-Monial","country":"France"},"nationality":"France","height":"179
+        cm","weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/282136.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Attacker","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":288107,"name":"C.
+        McNeill","firstname":"Charlie Martin","lastname":"McNeill","age":20,"birth":{"date":"2003-09-09","place":"Droylsden","country":"England"},"nationality":"England","height":"181
+        cm","weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/288107.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Attacker","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":284241,"name":"Mateo
+        Mej\u00eda","firstname":"Jos\u00e9 Mateo","lastname":"Mej\u00eda Piedrahita","age":20,"birth":{"date":"2003-03-31","place":null,"country":"Spain"},"nationality":"Spain","height":null,"weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/284241.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Attacker","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":303010,"name":"D.
+        Gore","firstname":"Daniel","lastname":"Gore","age":20,"birth":{"date":"2004-09-26","place":null,"country":"England"},"nationality":"England","height":null,"weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/303010.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":1,"lineups":0,"minutes":0,"number":null,"position":"Midfielder","rating":null,"captain":false},"substitutes":{"in":1,"out":0,"bench":7},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":0,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":1,"blocks":null,"interceptions":1},"duels":{"total":2,"won":2},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":1,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":null}}]},{"player":{"id":284323,"name":"C.
+        Savage","firstname":"Charlie William Henry","lastname":"Savage","age":21,"birth":{"date":"2003-05-02","place":"Leicester","country":"Wales"},"nationality":"Wales","height":"182
+        cm","weight":"74 kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/284323.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Midfielder","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":0},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":282133,"name":"J.
+        Hugill","firstname":"Joseph Brennen","lastname":"Hugill","age":21,"birth":{"date":"2003-10-19","place":"Durham","country":"England"},"nationality":"England","height":"188
+        cm","weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/282133.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Attacker","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":1},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":0,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":null}}]},{"player":{"id":903,"name":"S.
+        McTominay","firstname":"Scott Francis","lastname":"McTominay","age":28,"birth":{"date":"1996-12-08","place":"Lancaster","country":"England"},"nationality":"Scotland","height":"193
+        cm","weight":"88 kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/903.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":28,"lineups":15,"minutes":1595,"number":null,"position":"Midfielder","rating":"6.982142","captain":false},"substitutes":{"in":13,"out":2,"bench":15},"shots":{"total":30,"on":18},"goals":{"total":7,"conceded":0,"assists":1,"saves":null},"passes":{"total":553,"key":8,"accuracy":16},"tackles":{"total":44,"blocks":12,"interceptions":12},"duels":{"total":194,"won":98},"dribbles":{"attempts":16,"success":8,"past":null},"fouls":{"drawn":16,"committed":26},"cards":{"yellow":2,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":null}}]},{"player":{"id":50132,"name":"A.
+        Bay\u0131nd\u0131r","firstname":"Altay","lastname":"Bay\u0131nd\u0131r","age":26,"birth":{"date":"1998-04-14","place":"Bursa","country":"T\u00fcrkiye"},"nationality":"T\u00fcrkiye","height":"198
+        cm","weight":"88 kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/50132.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Goalkeeper","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":28},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":0,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":0}}]},{"player":{"id":284361,"name":"R.
+        V\u00edtek","firstname":"Radek","lastname":"V\u00edtek","age":21,"birth":{"date":"2003-10-24","place":"Vset\u00edn","country":"Czechia"},"nationality":"Czechia","height":"198
+        cm","weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/284361.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Goalkeeper","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":1},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":0,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":0}}]},{"player":{"id":19088,"name":"D.
+        Henderson","firstname":"Dean Bradley","lastname":"Henderson","age":27,"birth":{"date":"1997-03-12","place":"Whitehaven","country":"England"},"nationality":"England","height":"188
+        cm","weight":"85 kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/19088.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Goalkeeper","rating":"6.733333","captain":false},"substitutes":{"in":0,"out":0,"bench":3},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":29,"assists":null,"saves":47},"passes":{"total":371,"key":null,"accuracy":12},"tackles":{"total":1,"blocks":null,"interceptions":null},"duels":{"total":5,"won":4},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":0}}]},{"player":{"id":362270,"name":"E.
+        Wheatley","firstname":"Ethan Joseph","lastname":"Wheatley","age":18,"birth":{"date":"2006-01-20","place":null,"country":"England"},"nationality":"England","height":null,"weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/362270.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":1,"lineups":0,"minutes":0,"number":null,"position":"Attacker","rating":"6.200000","captain":false},"substitutes":{"in":1,"out":0,"bench":3},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":0,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":1},"duels":{"total":2,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":2},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":null}}]},{"player":{"id":163054,"name":"S.
+        Shoretire","firstname":"Shola Maxwell","lastname":"Shoretire","age":20,"birth":{"date":"2004-02-02","place":"Newcastle
+        upon Type","country":"England"},"nationality":"England","height":"170 cm","weight":"70
+        kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/163054.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Attacker","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":0},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]}]}'
+  recorded_at: Wed, 01 May 2024 15:16:11 GMT
 recorded_with: VCR 6.2.0
