@@ -25,5 +25,9 @@ RSpec.describe "Explore Sports" do
     click_button "Explore Sports"
 
     expect(current_path).to eq("/sports")
+
+    click_button "Soccer"
+
+    expect(current_path).to eq("/soccer")
   end
 end

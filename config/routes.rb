@@ -18,4 +18,5 @@ Rails.application.routes.draw do
   get "/users", to: "users#create"
   delete "/logout", to: "users#logout"
   get "/sports", to: "sports#index"
+  get "/soccer", to: "soccer#index"
 end
