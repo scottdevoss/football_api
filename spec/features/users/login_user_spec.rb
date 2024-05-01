@@ -1,7 +1,7 @@
 require "rails_helper"
 
 RSpec.describe "Logging In" do
-  it "can log in a user with valid credentials" do
+  it "can log in a user with valid credentials", :vcr do
     user = User.create(name: "Abraham Lincoln", email: "honestabe@gmail.com", password: "honest", password_confirmation: "honest")
     
     visit "/"
@@ -22,7 +22,7 @@ RSpec.describe "Logging In" do
     expect(page).to have_content("Welcome, #{user.name}!")
   end
 
-  it "cannot log in with bad credentials" do
+  it "cannot log in with bad credentials", :vcr do
     user = User.create(name: "Abraham Lincoln", email: "honestabe@gmail.com", password: "honest", password_confirmation: "honest")
 
     visit "/login"
@@ -38,7 +38,7 @@ RSpec.describe "Logging In" do
     expect(page).to have_content("Sorry, your credentials are bad.")
   end
 
-  it "user can log out" do
+  it "user can log out", :vcr do
     user = User.create(name: "Abraham Lincoln", email: "honestabe@gmail.com", password: "honest", password_confirmation: "honest")
     
     visit "/"

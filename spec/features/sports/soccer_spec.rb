@@ -34,4 +34,10 @@ RSpec.describe "Soccer" do
 
     expect(current_path).to eq("/soccer/team/33")
   end
+
+  it "shows a soccer teams show page", :vcr do
+    visit "/soccer/team/33"
+
+    
+  end
 end

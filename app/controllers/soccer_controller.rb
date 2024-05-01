@@ -12,6 +12,14 @@ class SoccerController < ApplicationController
   end
 
   def show
-    # require 'pry'; binding.pry
+    conn = Faraday.new(url: "https://v3.football.api-sports.io") do |faraday|
+      faraday.headers["x-rapidapi-key"] = Rails.application.credentials.soccer[:key]
+    end
+
+    response = conn.get("/teams?id=#{params[:id]}")
+
+    json = JSON.parse(response.body, symbolize_names: true)
+
+    @team = json[:response][0]
   end
 end

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "User registration form" do
+RSpec.describe "User registration form", :vcr do
   it "creates new user" do
     visit "/"
 
@@ -18,7 +18,7 @@ RSpec.describe "User registration form" do
     expect(page).to have_content("Welcome, Happy Gilmore!")
   end
 
-  it "gives an error message if not all fields are filled" do
+  it "gives an error message if not all fields are filled", :vcr do
     visit "/"
 
     click_on "Register as a New User"
@@ -34,7 +34,7 @@ RSpec.describe "User registration form" do
     expect(page).to have_content("Please fill in all fields")
   end
 
-  it "gives an error if passwords to not match" do
+  it "gives an error if passwords to not match", :vcr do
     visit "/"
 
     click_on "Register as a New User"
