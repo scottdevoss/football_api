@@ -5,3 +5,14 @@
 <%= "Capacity: #{@team[:venue][:capacity]}" %><br>
 <%= "Surface: #{@team[:venue][:surface]}" %><br>
 <%= image_tag "#{@team[:venue][:image]}" %><br>
+
+
+<h2>Players</h2>
+
+<% @players.each do |player| %>
+  <%= player[:player][:name] %><br>
+  <%= "Age: #{player[:player][:age]}" %><br>
+  <%= "Height: #{player[:player][:height]}" %><br>
+  <%= "Weight: #{player[:player][:weight]}" %><br>
+  <%= image_tag "#{player[:player][:photo]}" %><br><br>
+<% end %>
