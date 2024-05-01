@@ -1,0 +1,4 @@
+<% @teams.each do |team| %>
+  <%= link_to "#{team[:team][:name]}", "/soccer/team/#{team[:team][:id]}", method: :get %><br>
+  <%= image_tag "#{team[:team][:logo]}"%><br><br>
+<% end %>

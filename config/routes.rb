@@ -19,4 +19,5 @@ Rails.application.routes.draw do
   delete "/logout", to: "users#logout"
   get "/sports", to: "sports#index"
   get "/soccer", to: "soccer#index"
+  get "/soccer/team/:id", to: "soccer#show"
 end

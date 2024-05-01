@@ -1,7 +1,7 @@
 require "rails_helper"
 
-RSpec.describe "Explore Sports" do
-  it "shows an option to explore different sports", :vcr do
+RSpec.describe "Soccer" do
+  it "shows an option to explore soccer", :vcr do 
     user = User.create(name: "Abraham Lincoln", email: "honestabe@gmail.com", password: "honest", password_confirmation: "honest")
     
     visit "/"
@@ -29,5 +29,9 @@ RSpec.describe "Explore Sports" do
     click_button "Soccer"
 
     expect(current_path).to eq("/soccer")
+
+    click_link "Manchester United"
+
+    expect(current_path).to eq("/soccer/team/33")
   end
 end
