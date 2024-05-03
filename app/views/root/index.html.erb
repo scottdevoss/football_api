@@ -1,6 +1,8 @@
-<% if current_user %>
-  <%= button_to "Log Out", "/logout", method: :delete %>
-<% else %>
-  <%= button_to "Register as a New User", "/users/new", method: :get %>
-  <%= button_to "I already have an account", "/login", method: :get %>
-<% end %>
+<div class="button-container">
+  <% if current_user %>
+    <%= button_to "Log Out", "/logout", method: :delete %>
+  <% else %>
+    <%= button_to "Register as a New User", "/users/new", method: :get %>
+    <%= button_to "I already have an account", "/login", method: :get %>
+  <% end %>
+</div>
