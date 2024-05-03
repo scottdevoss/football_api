@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 May 2024 14:25:43 GMT
+      - Fri, 03 May 2024 16:31:59 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,8 +29,8 @@ http_interactions:
       Connection:
       - keep-alive
       X-Request-Id:
-      - 8e439dbe-86c5-407f-8576-78bf01a9b9db
-      - 8e439dbe-86c5-407f-8576-78bf01a9b9db
+      - 761ef313-d7c8-4966-bb24-702b4edf1faf
+      - 761ef313-d7c8-4966-bb24-702b4edf1faf
       Strict-Transport-Security:
       - max-age=31536000
       Vary:
@@ -46,11 +46,11 @@ http_interactions:
       X-Ratelimit-Limit:
       - '10'
       X-Ratelimit-Remaining:
-      - '8'
+      - '4'
       X-Ratelimit-Requests-Limit:
       - '100'
       X-Ratelimit-Requests-Remaining:
-      - '63'
+      - '48'
     body:
       encoding: ASCII-8BIT
       string: '{"get":"teams","parameters":{"league":"39","season":"2023"},"errors":[],"results":20,"paging":{"current":1,"total":1},"response":[{"team":{"id":33,"name":"Manchester
@@ -83,5 +83,5 @@ http_interactions:
         Villa","code":"AST","country":"England","founded":1874,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/66.png"},"venue":{"id":495,"name":"Villa
         Park","address":"Trinity Road","city":"Birmingham","capacity":42788,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/495.png"}},{"team":{"id":1359,"name":"Luton","code":"LUT","country":"England","founded":1885,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/1359.png"},"venue":{"id":551,"name":"Kenilworth
         Road","address":"1 Maple Road","city":"Luton, Bedfordshire","capacity":11500,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/551.png"}}]}'
-  recorded_at: Wed, 01 May 2024 14:25:43 GMT
+  recorded_at: Fri, 03 May 2024 16:31:59 GMT
 recorded_with: VCR 6.2.0
