@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 03 May 2024 16:48:08 GMT
+      - Mon, 06 May 2024 14:49:23 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,8 +29,8 @@ http_interactions:
       Connection:
       - keep-alive
       X-Request-Id:
-      - 6f9c1f7a-fc4e-4d76-b397-a4f010f9860e
-      - 6f9c1f7a-fc4e-4d76-b397-a4f010f9860e
+      - 0b98b7a9-8da1-4405-a1e1-888fbeaf5ae6
+      - 0b98b7a9-8da1-4405-a1e1-888fbeaf5ae6
       Strict-Transport-Security:
       - max-age=31536000
       Vary:
@@ -50,13 +50,13 @@ http_interactions:
       X-Ratelimit-Requests-Limit:
       - '100'
       X-Ratelimit-Requests-Remaining:
-      - '43'
+      - '96'
     body:
       encoding: ASCII-8BIT
       string: '{"get":"teams","parameters":{"id":"33"},"errors":[],"results":1,"paging":{"current":1,"total":1},"response":[{"team":{"id":33,"name":"Manchester
         United","code":"MUN","country":"England","founded":1878,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"venue":{"id":556,"name":"Old
         Trafford","address":"Sir Matt Busby Way","city":"Manchester","capacity":76212,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/556.png"}}]}'
-  recorded_at: Fri, 03 May 2024 16:48:08 GMT
+  recorded_at: Mon, 06 May 2024 14:49:23 GMT
 - request:
     method: get
     uri: https://v3.football.api-sports.io/players?league=39&season=2023&team=33
@@ -78,7 +78,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 03 May 2024 16:48:09 GMT
+      - Mon, 06 May 2024 14:49:23 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -86,8 +86,8 @@ http_interactions:
       Connection:
       - keep-alive
       X-Request-Id:
-      - 70546e5a-00a2-4344-b4a5-d4565988be2a
-      - 70546e5a-00a2-4344-b4a5-d4565988be2a
+      - f4009401-543d-4db0-a4e7-9fc48cda761b
+      - f4009401-543d-4db0-a4e7-9fc48cda761b
       Strict-Transport-Security:
       - max-age=31536000
       Vary:
@@ -107,7 +107,7 @@ http_interactions:
       X-Ratelimit-Requests-Limit:
       - '100'
       X-Ratelimit-Requests-Remaining:
-      - '42'
+      - '95'
     body:
       encoding: ASCII-8BIT
       string: '{"get":"players","parameters":{"league":"39","season":"2023","team":"33"},"errors":[],"results":20,"paging":{"current":1,"total":4},"response":[{"player":{"id":888,"name":"P.
@@ -149,30 +149,11 @@ http_interactions:
         League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Attacker","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":284241,"name":"Mateo
         Mej\u00eda","firstname":"Jos\u00e9 Mateo","lastname":"Mej\u00eda Piedrahita","age":20,"birth":{"date":"2003-03-31","place":null,"country":"Spain"},"nationality":"Spain","height":null,"weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/284241.png"},"statistics":[{"team":{"id":33,"name":"Manchester
         United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
-        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Attacker","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":303010,"name":"D.
-        Gore","firstname":"Daniel","lastname":"Gore","age":20,"birth":{"date":"2004-09-26","place":null,"country":"England"},"nationality":"England","height":null,"weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/303010.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":null,"lineups":null,"minutes":null,"number":null,"position":"Attacker","rating":null,"captain":false},"substitutes":{"in":null,"out":null,"bench":null},"shots":{"total":null,"on":null},"goals":{"total":null,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":null,"yellowred":null,"red":null},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":903,"name":"S.
+        McTominay","firstname":"Scott Francis","lastname":"McTominay","age":28,"birth":{"date":"1996-12-08","place":"Lancaster","country":"England"},"nationality":"Scotland","height":"193
+        cm","weight":"88 kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/903.png"},"statistics":[{"team":{"id":33,"name":"Manchester
         United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
-        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":1,"lineups":0,"minutes":0,"number":null,"position":"Midfielder","rating":null,"captain":false},"substitutes":{"in":1,"out":0,"bench":7},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":0,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":1,"blocks":null,"interceptions":1},"duels":{"total":2,"won":2},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":1,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":null}}]},{"player":{"id":284323,"name":"C.
-        Savage","firstname":"Charlie William Henry","lastname":"Savage","age":21,"birth":{"date":"2003-05-02","place":"Leicester","country":"Wales"},"nationality":"Wales","height":"182
-        cm","weight":"74 kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/284323.png"},"statistics":[{"team":{"id":33,"name":"Manchester
-        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
-        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Midfielder","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":0},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":282133,"name":"J.
-        Hugill","firstname":"Joseph Brennen","lastname":"Hugill","age":21,"birth":{"date":"2003-10-19","place":"Durham","country":"England"},"nationality":"England","height":"188
-        cm","weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/282133.png"},"statistics":[{"team":{"id":33,"name":"Manchester
-        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
-        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Attacker","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":1},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":0,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":null}}]},{"player":{"id":284361,"name":"R.
-        V\u00edtek","firstname":"Radek","lastname":"V\u00edtek","age":21,"birth":{"date":"2003-10-24","place":"Vset\u00edn","country":"Czechia"},"nationality":"Czechia","height":"198
-        cm","weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/284361.png"},"statistics":[{"team":{"id":33,"name":"Manchester
-        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
-        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Goalkeeper","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":1},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":0,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":0}}]},{"player":{"id":20319,"name":"N.
-        Bishop","firstname":"Nathan James","lastname":"Bishop","age":25,"birth":{"date":"1999-10-15","place":"Hillingdon","country":"England"},"nationality":"England","height":"185
-        cm","weight":"72 kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/20319.png"},"statistics":[{"team":{"id":33,"name":"Manchester
-        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
-        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Goalkeeper","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":0},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":138806,"name":"B.
-        Williams","firstname":"Brandon Paul Brian","lastname":"Williams","age":24,"birth":{"date":"2000-09-03","place":"Manchester","country":"England"},"nationality":"England","height":"171
-        cm","weight":"63 kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/138806.png"},"statistics":[{"team":{"id":33,"name":"Manchester
-        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
-        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Defender","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":0},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":288106,"name":"Marc
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":29,"lineups":15,"minutes":1620,"number":null,"position":"Midfielder","rating":"6.972413","captain":false},"substitutes":{"in":14,"out":3,"bench":16},"shots":{"total":30,"on":18},"goals":{"total":7,"conceded":0,"assists":1,"saves":null},"passes":{"total":564,"key":9,"accuracy":15},"tackles":{"total":44,"blocks":12,"interceptions":12},"duels":{"total":196,"won":98},"dribbles":{"attempts":16,"success":8,"past":null},"fouls":{"drawn":16,"committed":27},"cards":{"yellow":2,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":null}}]},{"player":{"id":288106,"name":"Marc
         Jurado","firstname":"Marc","lastname":"Jurado G\u00f3mez","age":20,"birth":{"date":"2004-04-13","place":"Sabadell","country":"Spain"},"nationality":"Spain","height":"178
         cm","weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/288106.png"},"statistics":[{"team":{"id":33,"name":"Manchester
         United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
@@ -184,6 +165,25 @@ http_interactions:
         de Paula Santos","age":31,"birth":{"date":"1993-03-05","place":"Belo Horizonte","country":"Brazil"},"nationality":"Brazil","height":"169
         cm","weight":"64 kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/905.png"},"statistics":[{"team":{"id":33,"name":"Manchester
         United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Midfielder","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":0},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]},{"player":{"id":288006,"name":"R.
+        H\u00f8jlund","firstname":"Rasmus","lastname":"Winther H\u00f8jlund","age":21,"birth":{"date":"2003-02-04","place":"K\u00f8benhavn","country":"Denmark"},"nationality":"Denmark","height":"191
+        cm","weight":"79 kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/288006.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":26,"lineups":23,"minutes":1965,"number":null,"position":"Attacker","rating":"6.826923","captain":false},"substitutes":{"in":3,"out":15,"bench":3},"shots":{"total":29,"on":19},"goals":{"total":8,"conceded":0,"assists":2,"saves":null},"passes":{"total":350,"key":26,"accuracy":10},"tackles":{"total":10,"blocks":1,"interceptions":1},"duels":{"total":199,"won":74},"dribbles":{"attempts":31,"success":14,"past":null},"fouls":{"drawn":29,"committed":16},"cards":{"yellow":2,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":null}}]},{"player":{"id":284361,"name":"R.
+        V\u00edtek","firstname":"Radek","lastname":"V\u00edtek","age":21,"birth":{"date":"2003-10-24","place":"Vset\u00edn","country":"Czechia"},"nationality":"Czechia","height":"198
+        cm","weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/284361.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Goalkeeper","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":1},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":0,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":0}}]},{"player":{"id":303010,"name":"D.
+        Gore","firstname":"Daniel","lastname":"Gore","age":20,"birth":{"date":"2004-09-26","place":null,"country":"England"},"nationality":"England","height":null,"weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/303010.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":1,"lineups":0,"minutes":0,"number":null,"position":"Midfielder","rating":null,"captain":false},"substitutes":{"in":1,"out":0,"bench":7},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":0,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":1,"blocks":null,"interceptions":1},"duels":{"total":2,"won":2},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":1,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":null}}]},{"player":{"id":282133,"name":"J.
+        Hugill","firstname":"Joseph Brennen","lastname":"Hugill","age":21,"birth":{"date":"2003-10-19","place":"Durham","country":"England"},"nationality":"England","height":"188
+        cm","weight":null,"injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/282133.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
+        League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Attacker","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":1},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":0,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":0,"missed":0,"saved":null}}]},{"player":{"id":284323,"name":"C.
+        Savage","firstname":"Charlie William Henry","lastname":"Savage","age":21,"birth":{"date":"2003-05-02","place":"Leicester","country":"Wales"},"nationality":"Wales","height":"182
+        cm","weight":"74 kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/284323.png"},"statistics":[{"team":{"id":33,"name":"Manchester
+        United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
         League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Midfielder","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":0},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]}]}'
-  recorded_at: Fri, 03 May 2024 16:48:09 GMT
+  recorded_at: Mon, 06 May 2024 14:49:23 GMT
 recorded_with: VCR 6.2.0
