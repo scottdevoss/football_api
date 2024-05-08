@@ -126,7 +126,7 @@
           1,
           1,
           1,
-          7,
+          8,
           1,
           1,
           null,
@@ -638,6 +638,54 @@
           null
         ]
       },
+      "/Users/scottdevoss/job_search_2024/football_api/spec/services/team_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/scottdevoss/job_search_2024/football_api/app/services/team_service.rb": {
+        "lines": [
+          1,
+          1,
+          3,
+          null,
+          null,
+          1,
+          3,
+          3,
+          null,
+          null,
+          1,
+          3,
+          3,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/scottdevoss/job_search_2024/football_api/app/controllers/root_controller.rb": {
         "lines": [
           1,
@@ -733,19 +781,6 @@
           2,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           1,
           2,
           2,
@@ -774,14 +809,6 @@
           null,
           null,
           1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           2,
           null,
           2,
@@ -792,35 +819,8 @@
           null,
           null
         ]
-      },
-      "/Users/scottdevoss/job_search_2024/football_api/app/services/team_service.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          2,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          2,
-          2,
-          null,
-          null,
-          1,
-          2,
-          2,
-          null,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1715182685
+    "timestamp": 1715183262
   }
 }
