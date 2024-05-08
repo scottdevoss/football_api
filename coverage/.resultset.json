@@ -701,6 +701,9 @@
           2,
           null,
           2,
+          40,
+          null,
+          null,
           null,
           null,
           1,
@@ -722,8 +725,21 @@
           null,
           null
         ]
+      },
+      "/Users/scottdevoss/job_search_2024/football_api/app/poros/team.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          40,
+          40,
+          40,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1715180434
+    "timestamp": 1715181156
   }
 }

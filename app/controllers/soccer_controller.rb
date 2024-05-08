@@ -8,7 +8,10 @@ class SoccerController < ApplicationController
 
     json = JSON.parse(response.body, symbolize_names: true)
 
-    @teams = json[:response]
+    @teams = json[:response].map do |team|
+      Team.new(team)
+    end
+    
   end
 
   def show
