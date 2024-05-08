@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 08 May 2024 14:31:13 GMT
+      - Wed, 08 May 2024 14:59:41 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,8 +29,8 @@ http_interactions:
       Connection:
       - keep-alive
       X-Request-Id:
-      - e858dd93-a8b6-4f8b-bc13-54bf2969519b
-      - e858dd93-a8b6-4f8b-bc13-54bf2969519b
+      - ddfcbb16-d12f-4244-ab3c-28a944eabe4b
+      - ddfcbb16-d12f-4244-ab3c-28a944eabe4b
       Strict-Transport-Security:
       - max-age=31536000
       Vary:
@@ -50,13 +50,13 @@ http_interactions:
       X-Ratelimit-Requests-Limit:
       - '100'
       X-Ratelimit-Requests-Remaining:
-      - '73'
+      - '54'
     body:
       encoding: ASCII-8BIT
       string: '{"get":"teams","parameters":{"id":"33"},"errors":[],"results":1,"paging":{"current":1,"total":1},"response":[{"team":{"id":33,"name":"Manchester
         United","code":"MUN","country":"England","founded":1878,"national":false,"logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"venue":{"id":556,"name":"Old
         Trafford","address":"Sir Matt Busby Way","city":"Manchester","capacity":76212,"surface":"grass","image":"https:\/\/media.api-sports.io\/football\/venues\/556.png"}}]}'
-  recorded_at: Wed, 08 May 2024 14:31:13 GMT
+  recorded_at: Wed, 08 May 2024 14:59:41 GMT
 - request:
     method: get
     uri: https://v3.football.api-sports.io/players?league=39&season=2023&team=33
@@ -78,7 +78,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 08 May 2024 14:31:13 GMT
+      - Wed, 08 May 2024 14:59:41 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -86,8 +86,8 @@ http_interactions:
       Connection:
       - keep-alive
       X-Request-Id:
-      - 7504075d-80ef-4cc6-8227-c7c7331dd6c4
-      - 7504075d-80ef-4cc6-8227-c7c7331dd6c4
+      - 1937b095-ede9-4e7a-96c6-f495f8747c35
+      - 1937b095-ede9-4e7a-96c6-f495f8747c35
       Strict-Transport-Security:
       - max-age=31536000
       Vary:
@@ -107,7 +107,7 @@ http_interactions:
       X-Ratelimit-Requests-Limit:
       - '100'
       X-Ratelimit-Requests-Remaining:
-      - '72'
+      - '53'
     body:
       encoding: ASCII-8BIT
       string: '{"get":"players","parameters":{"league":"39","season":"2023","team":"33"},"errors":[],"results":20,"paging":{"current":1,"total":4},"response":[{"player":{"id":888,"name":"P.
@@ -186,5 +186,5 @@ http_interactions:
         kg","injured":false,"photo":"https:\/\/media.api-sports.io\/football\/players\/163054.png"},"statistics":[{"team":{"id":33,"name":"Manchester
         United","logo":"https:\/\/media.api-sports.io\/football\/teams\/33.png"},"league":{"id":39,"name":"Premier
         League","country":"England","logo":"https:\/\/media.api-sports.io\/football\/leagues\/39.png","flag":"https:\/\/media.api-sports.io\/flags\/gb.svg","season":2023},"games":{"appearences":0,"lineups":0,"minutes":0,"number":null,"position":"Attacker","rating":null,"captain":false},"substitutes":{"in":0,"out":0,"bench":0},"shots":{"total":null,"on":null},"goals":{"total":0,"conceded":null,"assists":null,"saves":null},"passes":{"total":null,"key":null,"accuracy":null},"tackles":{"total":null,"blocks":null,"interceptions":null},"duels":{"total":null,"won":null},"dribbles":{"attempts":null,"success":null,"past":null},"fouls":{"drawn":null,"committed":null},"cards":{"yellow":0,"yellowred":0,"red":0},"penalty":{"won":null,"commited":null,"scored":null,"missed":null,"saved":null}}]}]}'
-  recorded_at: Wed, 08 May 2024 14:31:13 GMT
+  recorded_at: Wed, 08 May 2024 14:59:41 GMT
 recorded_with: VCR 6.2.0
