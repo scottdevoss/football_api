@@ -1,20 +1,22 @@
 <div class="button-container">  
-  <h1><%= @team[:team][:name] %></h1><br>
-  <%= "Country: #{@team[:team][:country]}" %><br>
-  <%= "Founded: #{@team[:team][:founded]}" %><br>
-  <%= "Venue: #{@team[:venue][:name]}" %><br>
-  <%= "Capacity: #{@team[:venue][:capacity]}" %><br>
-  <%= "Surface: #{@team[:venue][:surface]}" %><br>
-  <%= image_tag "#{@team[:venue][:image]}" %><br>
+  <% cache("players") do%>
+    <h1><%= @team[:team][:name] %></h1><br>
+    <%= "Country: #{@team[:team][:country]}" %><br>
+    <%= "Founded: #{@team[:team][:founded]}" %><br>
+    <%= "Venue: #{@team[:venue][:name]}" %><br>
+    <%= "Capacity: #{@team[:venue][:capacity]}" %><br>
+    <%= "Surface: #{@team[:venue][:surface]}" %><br>
+    <%= image_tag "#{@team[:venue][:image]}" %><br>
 
 
-  <h2>Players</h2>
+    <h2>Players</h2>
 
-  <% @players.each do |player| %>
-    <%= player[:player][:name] %><br>
-    <%= "Age: #{player[:player][:age]}" %><br>
-    <%= "Height: #{player[:player][:height]}" %><br>
-    <%= "Weight: #{player[:player][:weight]}" %><br>
-    <%= image_tag "#{player[:player][:photo]}" %><br><br>
+    <% @players.each do |player| %>
+      <%= player[:player][:name] %><br>
+      <%= "Age: #{player[:player][:age]}" %><br>
+      <%= "Height: #{player[:player][:height]}" %><br>
+      <%= "Weight: #{player[:player][:weight]}" %><br>
+      <%= image_tag "#{player[:player][:photo]}" %><br><br>
+    <% end %>
   <% end %>
 </div>
