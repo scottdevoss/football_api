@@ -731,15 +731,17 @@
           1,
           1,
           2,
-          2,
           null,
           null,
-          2,
           null,
-          2,
           null,
-          2,
-          40,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null,
           null,
@@ -763,8 +765,31 @@
           null,
           null
         ]
+      },
+      "/Users/scottdevoss/job_search_2024/football_api/app/facades/team_facade.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          2,
+          null,
+          2,
+          null,
+          2,
+          40,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1715181474
+    "timestamp": 1715182467
   }
 }
