@@ -4,13 +4,17 @@ class TeamFacade
   end
 
   def teams
-    conn = Faraday.new(url: "https://v3.football.api-sports.io") do |faraday|
-      faraday.headers["x-rapidapi-key"] = Rails.application.credentials.soccer[:key]
-    end
+    # conn = Faraday.new(url: "https://v3.football.api-sports.io") do |faraday|
+    #   faraday.headers["x-rapidapi-key"] = Rails.application.credentials.soccer[:key]
+    # end
 
-    response = conn.get("/teams?league=39&season=2023")
+    # response = conn.get("/teams?league=39&season=2023")
 
-    json = JSON.parse(response.body, symbolize_names: true)
+    # json = JSON.parse(response.body, symbolize_names: true)
+
+    service = TeamService.new
+
+    json = service.teams
 
     @teams = json[:response].map do |team|
       Team.new(team)
