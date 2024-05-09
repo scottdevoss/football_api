@@ -13,5 +13,120 @@
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
+.soccer_index_container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  background-image: url('logos/stadium.png'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust the spacing between teams */
+}
+
+.team {
+  width: calc(20% - 20px); /* Adjust the width of each team box */
+  text-align: center;
+}
+
+.team img {
+  max-width: 100%;
+}
+
+.team-button {
+  background-color: #000; /* Set the background color to black */
+  border: none;
+  cursor: pointer;
+  font-size: 18px; /* Adjust the font size */
+  color: #fff; /* Set the text color to white for better readability */
+  padding: 10px 20px; /* Add padding to make the button more visually appealing */
+  border-radius: 5px; /* Round the edges of the button */
+  transition: transform 0.2s ease-in-out; /* Add transition for smooth animation */
+}
+
+.team-button:hover {
+  transform: scale(1.1); /* Increase the size of the button on hover */
+}
+
+
+
+
+.team-name {
+  font-size: 20px; /* Adjust the font size */
+}
+
+
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  background-image: url('logos/soccer.png'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore_container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  background-image: url('logos/explore_sports.png'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore-button-on-image {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.button-on-image {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+
 
 
