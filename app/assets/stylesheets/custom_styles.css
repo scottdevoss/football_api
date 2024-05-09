@@ -37,6 +37,24 @@
   align-items: center;
 }
 
+.explore-button-on-image {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
 .button-on-image {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -49,7 +67,7 @@
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
