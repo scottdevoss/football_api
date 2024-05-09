@@ -25,6 +25,18 @@
   align-items: center;
 }
 
+.explore_container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  background-image: url('logos/explore_sports.png'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .button-on-image {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
