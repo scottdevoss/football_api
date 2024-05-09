@@ -1,8 +1,17 @@
-<div class="button-container"> 
+<div class="soccer_index_container"> 
   <% cache("team-count") do %>
-    <% @teams.each do |team| %>
-      <%= link_to "#{team.name}", "/soccer/team/#{team.id}", method: :get %><br>
-      <%= image_tag "#{team.logo}"%><br><br>
-    <% end %>
+    <div class="team-grid">
+      <% @teams.each do |team| %>
+        <div class="team">
+          <%= button_to "/soccer/team/#{team.id}", method: :get, class: "team-button" do %>
+            <%= image_tag "#{team.logo}"%><br>
+            <span class="team-name"><%= team.name %></span>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
   <% end %>
 </div>
+
+
+
