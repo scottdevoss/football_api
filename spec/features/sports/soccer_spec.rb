@@ -30,7 +30,7 @@ RSpec.describe "Soccer" do
 
     expect(current_path).to eq("/soccer")
 
-    click_link "Manchester United"
+    click_button "Manchester United"
 
     expect(current_path).to eq("/soccer/team/33")
   end
