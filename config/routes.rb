@@ -20,4 +20,5 @@ Rails.application.routes.draw do
   get "/sports", to: "sports#index"
   get "/soccer", to: "soccer#index"
   get "/soccer/team/:id", to: "soccer#show"
+  get "/NFL", to: "football#index"
 end
