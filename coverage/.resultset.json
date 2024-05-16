@@ -31,7 +31,7 @@
           null,
           1,
           null,
-          0,
+          1,
           null,
           null
         ]
@@ -810,6 +810,15 @@
           null
         ]
       },
+      "/Users/scottdevoss/job_search_2024/football_api/app/controllers/football_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/scottdevoss/job_search_2024/football_api/app/controllers/soccer_controller.rb": {
         "lines": [
           1,
@@ -857,6 +866,6 @@
         ]
       }
     },
-    "timestamp": 1715897520
+    "timestamp": 1715897608
   }
 }
