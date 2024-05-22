@@ -28,4 +28,11 @@ RSpec.describe "NFL Page" do
 
     expect(current_path).to eq("/NFL")
   end
+
+  it "shows all the NFL teams", :vcr do
+    visit "/NFL"
+
+    expect(page).to have_button("Denver Broncos")
+    expect(page).to have_button("Kansas City Chiefs")
+  end
 end
