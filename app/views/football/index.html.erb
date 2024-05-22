@@ -1,0 +1,14 @@
+<div class="football_index_container"> 
+  <% cache("nfl-team-count") do %>
+    <div class="nfl-team-grid">
+      <% @teams.each do |team| %>
+        <div class="nfl-team">
+          <%= button_to "/nfl/team/#{team[:id]}", method: :get, class: "nfl-team-button" do %>
+            <%= image_tag "#{team[:logo]}"%><br>
+            <span class="nfl-team-name"><%= team[:name] %></span>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>

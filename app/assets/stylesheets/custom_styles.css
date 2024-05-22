@@ -25,6 +25,18 @@
   align-items: center;
 }
 
+.nfl_index_container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  background-image: url('logos/stadium.png'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .team-grid {
   display: flex;
   flex-wrap: wrap;
@@ -32,7 +44,19 @@
   gap: 20px; /* Adjust the spacing between teams */
 }
 
+.nfl-team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust the spacing between teams */
+}
+
 .team {
+  width: calc(20% - 20px); /* Adjust the width of each team box */
+  text-align: center;
+}
+
+.nfl-team {
   width: calc(20% - 20px); /* Adjust the width of each team box */
   text-align: center;
 }
@@ -57,17 +81,47 @@
 }
 
 
+.nfl-team-button {
+  background-color: #000; /* Set the background color to black */
+  border: none;
+  cursor: pointer;
+  font-size: 18px; /* Adjust the font size */
+  color: #fff; /* Set the text color to white for better readability */
+  padding: 10px 20px; /* Add padding to make the button more visually appealing */
+  border-radius: 5px; /* Round the edges of the button */
+  transition: transform 0.2s ease-in-out; /* Add transition for smooth animation */
+}
+
+.nfl-team-button:hover {
+  transform: scale(1.1); /* Increase the size of the button on hover */
+}
+
+
 
 
 .team-name {
   font-size: 20px; /* Adjust the font size */
 }
+
+.nfl-team-name {
+  font-size: 20px; /* Adjust the font size */
+}
+
 @media (max-width: 768px) {
   .team-button {
     font-size: 16px; /* Decrease font size for smaller screens */
     padding: 8px 16px; /* Adjust padding for smaller screens */
   }
 }
+
+@media (max-width: 768px) {
+  .nfl-team-button {
+    font-size: 16px; /* Decrease font size for smaller screens */
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+  }
+}
+
+
 
 
 
